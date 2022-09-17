@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Guess my number</title>
+</head>
+<body>
+    <div id="container">
+        <h2>GUESS MY NUMBER</h2>
+        <div> You can write inside!</div>
+        <div>▼</div>
+        <div id="input">
+            <button id="minus" onclick="oneNumberLess()">-</button>
+            <input id="display" type="text" value="0">
+            <button id="plus" onclick="oneNumberMore()">+</button>
+        </div>
+        <p id="hint">HINT: More higher!</p>
+        <p id="tryed">TRYED <span id="count-hint">0</span> times</p>
+    </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    height: 100vh;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 50px;
+    min-width: 75px;
+    text-align: center;
+    width: 10%;
+    border: 2px solid black;
+}
+
+button {
+    font-size: 50px;
+    width: 75px;
+    cursor: pointer;
+}
+
+button#minus {
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button#plus {
+    background-color: rgb(0, 255, 0);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button:active {
+    transform: scale(110%);
+}
+
+#hint {
+    font-weight: 900;
+    color: rgb(0, 255, 0);
+    text-shadow: 1px 1px 3px black;
+    transition: .5s;
+}
