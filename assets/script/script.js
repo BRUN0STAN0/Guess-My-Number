@@ -44,7 +44,7 @@ function giveHint() {
         document.getElementById("hint").style.color = "gold";
         countHint++;
         document.getElementById("tryed").innerHTML = "";
-
+        alert(`You win with ${countHint} try.`)
     }
 }
 
